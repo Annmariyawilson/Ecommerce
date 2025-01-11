@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: outfit;
+}
+
+select,input,textarea{
+    border: 1px solid #c2c2c2 ;
+    outline-color: #c586a5; ;
+    border-radius: 4px;
+}
+
+.active{
+    background-color: rgba(241, 205, 205, 0.614);
+    border-color: rgb(246, 177, 177);
+}
